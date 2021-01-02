@@ -55,29 +55,82 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Checkout the Menu",
   tabs = {
-    Manga: [
+    Webtoons: [
       {
-        imageSrc: "/template/previewtemplate14.png",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
-        url: "#",
+        imageSrc: "/webtoon/webtoon-1.jpg",
+        title: "Webtoon Viewer",
+        content: "This proect was part of the competition held by webtoon",
+        url:
+          "https://www.webtoons.com/id/challenge/viewer/vlog/viewer?title_no=248218&episode_no=1        ",
+      },
+      {
+        imageSrc: "/webtoon/webtoon-2.jpg",
+        title: "Eperience",
+        content: "This project was competition held by kwikku        ",
+        url: "https://webtoon.kwikku.com/comic/669        ",
       },
     ],
     Comic: [
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+        imageSrc: "/comic/1-min.jpg",
+        title: "Hamzanama Panel 1",
+        content:
+          "Hamzanama is trapped in the desert, and is looking for a village        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/comic/2-min.jpg",
+        title: "Hamzanama Panel 2",
+        content:
+          "Hamza met a traveler on a horse and offered to go with him to a nearby village.        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/comic/3-min.jpg",
+        title: "Hamzanama Panel 3",
+        content:
+          "There was a kidnapping and the victim was in the village, then Amir Hamza helped help the victim.",
+        url: "#",
+      },
+      {
+        imageSrc: "/comic/4-min.jpg",
+        title: "Hamzanama Panel 4",
+        content:
+          "Amir and Hamza stalk the base of a kidnapper on a mountain.        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/comic/5-min.jpg",
+        title: "Hamzanama Panel 5",
+        content: "Amir Hamza plans to invade the base and dispel the enemy",
         url: "#",
       },
     ],
     Character: [
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+        imageSrc: "/character/g1-min.jpg",
+        title: "Gladiator 1        ",
+        content: "Gladiator character design with sharp sword        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/character/g2-min.jpg",
+        title: "Gladiator 2        ",
+        content:
+          "Gladiator character design with tassel and short spear weapon        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/character/g3-min.jpg",
+        title: "Gladiator 3        ",
+        content:
+          "Design a gladiator character with an ax and design a face like the north star        ",
+        url: "#",
+      },
+      {
+        imageSrc: "/character/g4-min.jpg",
+        title: "Gladiator 4        ",
+        content: "Gladiator character design with shield and spear        ",
         url: "#",
       },
     ],
@@ -159,6 +212,7 @@ export default ({
                 <Card
                   className="group"
                   href={card.url}
+                  target="_blank"
                   initial="rest"
                   whileHover="hover"
                   animate="rest"

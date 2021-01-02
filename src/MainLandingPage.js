@@ -30,7 +30,7 @@ export default () => {
         description="Humans with many abilities whose skills increase every day. Where life is like an RPG game
 very interested in Illustration and 3D, Love Games and Game Creation. 
 Open up opportunities for job offers and cooperation."
-        imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc="/content/sampul.jpeg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Hire Me"
@@ -46,28 +46,27 @@ Open up opportunities for job offers and cooperation."
           {
             imageSrc: skillOneIconImageSrc,
             title: "Graphic Design",
-            description:
-              "We strictly only deal with vendors that provide top notch security.",
+            description: "",
           },
           {
             imageSrc: skillTwoIconImageSrc,
             title: "Illustrator",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "",
           },
           {
             imageSrc: skillThreeIconImageSrc,
             title: "3D Artist",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "",
           },
           {
             imageSrc: skillFourIconImageSrc,
             title: "Animator",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "",
           },
           {
             imageSrc: skillFiveIconImageSrc,
             title: "Video Editor",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
+            description: "",
           },
         ]}
         imageContainerCss={tw`p-2!`}
@@ -106,7 +105,7 @@ Open up opportunities for job offers and cooperation."
         primaryButtonText="Hire Me Now"
         primaryButtonUrl="https://wa.me/+6283114422861"
         imageInsideDiv={false}
-        imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
+        imageSrc="/content/content.jpeg"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
         imageContainerCss={tw`md:w-1/2 h-auto`}
         imageDecoratorBlob={true}
