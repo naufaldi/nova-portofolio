@@ -33,18 +33,6 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
   ${tw`pointer-events-none fill-current text-primary-500 opacity-25 absolute w-32 h-32 right-0 bottom-0 transform translate-x-10 translate-y-10 -z-10`}
 `;
 
-const StyledModal = styled(ReactModalAdapter)`
-  &.mainHeroModal__overlay {
-    ${tw`fixed inset-0 z-50`}
-  }
-  &.mainHeroModal__content {
-    ${tw`xl:mx-auto m-4 sm:m-16 max-w-screen-xl absolute inset-0 flex justify-center items-center rounded-lg bg-gray-200 outline-none`}
-  }
-  .content {
-    ${tw`w-full lg:p-16`}
-  }
-`;
-
 export default ({
   heading = "Modern React Templates, Just For You",
   description = "Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
