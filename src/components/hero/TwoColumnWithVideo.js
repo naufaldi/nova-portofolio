@@ -44,15 +44,14 @@ const StyledModal = styled(ReactModalAdapter)`
     ${tw`w-full lg:p-16`}
   }
 `;
-const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
   heading = "Modern React Templates, Just For You",
   description = "Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
   primaryButtonText = "Get Started",
-  primaryButtonUrl = "https://wa.me/+62%20831-1442-2861",
+  primaryButtonUrl = "https://wa.me/+6283114422861",
   OutlineButtonText = "Get Started",
-  OutlineButtonUrl = "https://wa.me/+62%20831-1442-2861",
+  OutlineButtonUrl = "https://wa.me/+6283114422861",
   imageSrc = DesignIllustration,
   imageCss = null,
   imageDecoratorBlob = false,

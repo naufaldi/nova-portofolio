@@ -83,7 +83,7 @@ export default ({
       <NavLink href="/#portofolio">Portofolio</NavLink>
       <PrimaryLink
         css={roundedHeaderButton && tw`rounded-full`}
-        href="https://wa.me/+62%20831-1442-2861"
+        href="https://wa.me/+6283114422861"
       >
         Contact
       </PrimaryLink>

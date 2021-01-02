@@ -8,7 +8,11 @@ import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
 import TabGrid from "components/cards/TabCardGrid.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
 
-import graphicIconImageSrc from "images/skill/graphic.jpg";
+import skillOneIconImageSrc from "images/skill/skill-1.svg";
+import skillTwoIconImageSrc from "images/skill/skill-2.svg";
+import skillThreeIconImageSrc from "images/skill/skill-3.svg";
+import skillFourIconImageSrc from "images/skill/skill-4.svg";
+import skillFiveIconImageSrc from "images/skill/skill-5.svg";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -23,7 +27,9 @@ export default () => {
             <HighlightedText>Illustration Artist.</HighlightedText>
           </>
         }
-        description="Saya seorang illustration artist yang mampu membuat berbagai jenis 2D / 3D karakter, pewarnaan karakter dan berbagai jenis desain grafik kebutuhanmu."
+        description="Humans with many abilities whose skills increase every day. Where life is like an RPG game
+very interested in Illustration and 3D, Love Games and Game Creation. 
+Open up opportunities for job offers and cooperation."
         imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
         imageCss={imageCss}
         imageDecoratorBlob={true}
@@ -38,28 +44,28 @@ export default () => {
         }
         cards={[
           {
-            imageSrc: graphicIconImageSrc,
+            imageSrc: skillOneIconImageSrc,
             title: "Graphic Design",
             description:
               "We strictly only deal with vendors that provide top notch security.",
           },
           {
-            imageSrc: graphicIconImageSrc,
+            imageSrc: skillTwoIconImageSrc,
             title: "Illustrator",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
           },
           {
-            imageSrc: graphicIconImageSrc,
+            imageSrc: skillThreeIconImageSrc,
             title: "3D Artist",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
           },
           {
-            imageSrc: graphicIconImageSrc,
+            imageSrc: skillFourIconImageSrc,
             title: "Animator",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
           },
           {
-            imageSrc: graphicIconImageSrc,
+            imageSrc: skillFiveIconImageSrc,
             title: "Video Editor",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
           },
@@ -77,10 +83,10 @@ export default () => {
       />
 
       <MainFeature2
-        subheading={<Subheading>A Reputed Brand</Subheading>}
+        subheading={<Subheading>Trusted Freelance</Subheading>}
         heading={
           <>
-            Why <HighlightedText>Choose Us ?</HighlightedText>
+            Why <HighlightedText>Choose Me ?</HighlightedText>
           </>
         }
         statistics={[
@@ -98,7 +104,7 @@ export default () => {
           },
         ]}
         primaryButtonText="Hire Me Now"
-        primaryButtonUrl="https://wa.me/+62%20831-1442-2861"
+        primaryButtonUrl="https://wa.me/+6283114422861"
         imageInsideDiv={false}
         imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
